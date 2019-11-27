@@ -1,0 +1,24 @@
+{
+    "name": "shailesh-daund/linkedIn-php",
+    "description": "PHP client for the LinkedIn API https://docs.microsoft.com/en-us/linkedin/",
+    "type": "library",
+    "keywords": ["LinkedIn","LinkedIn PHP","LinkedIn API","API Client"],
+    "homepage": "https://github.com/shailesh-daund/linkedIn-php",
+    "readme" : "https://github.com/shailesh-daund/linkedIn-php/blob/master/README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shailesh Daund",
+            "email": "shailesh.daund@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkedIn\\": "src/LinkedIn/"
+        }
+    }
+}
